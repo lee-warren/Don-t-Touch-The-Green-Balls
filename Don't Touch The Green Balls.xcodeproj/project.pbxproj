@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB016509198B650900B1C375 /* Music Rights.png in Resources */ = {isa = PBXBuildFile; fileRef = DB016508198B650900B1C375 /* Music Rights.png */; };
+		DB016520198B691700B1C375 /* Ouroboros.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB01651F198B691700B1C375 /* Ouroboros.mp3 */; };
+		DB016522198B6B4F00B1C375 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB016521198B6B4F00B1C375 /* AVFoundation.framework */; };
+		DB016524198B7EAE00B1C375 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB016523198B7EAE00B1C375 /* iAd.framework */; };
+		DB1D21481987AA8000A40A72 /* CreditsScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1D21471987AA8000A40A72 /* CreditsScreen.m */; };
+		DB1D21571987B6B300A40A72 /* Download My Maths Image.png in Resources */ = {isa = PBXBuildFile; fileRef = DB1D21531987B6B300A40A72 /* Download My Maths Image.png */; };
+		DB1D21581987B6B300A40A72 /* Facebook Like Image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB1D21541987B6B300A40A72 /* Facebook Like Image.jpg */; };
+		DB1D21591987B6B300A40A72 /* fb_icon_325x325.png in Resources */ = {isa = PBXBuildFile; fileRef = DB1D21551987B6B300A40A72 /* fb_icon_325x325.png */; };
+		DB1D215A1987B6B300A40A72 /* Special Thanks to People.png in Resources */ = {isa = PBXBuildFile; fileRef = DB1D21561987B6B300A40A72 /* Special Thanks to People.png */; };
+		DB222EA11983AABE0015001D /* 1Life.png in Resources */ = {isa = PBXBuildFile; fileRef = DB222E9E1983AABE0015001D /* 1Life.png */; };
+		DB222EA21983AABE0015001D /* 2Life.png in Resources */ = {isa = PBXBuildFile; fileRef = DB222E9F1983AABE0015001D /* 2Life.png */; };
+		DB222EA31983AABE0015001D /* 3Life.png in Resources */ = {isa = PBXBuildFile; fileRef = DB222EA01983AABE0015001D /* 3Life.png */; };
+		DB222EA51983C01E0015001D /* 0Life.png in Resources */ = {isa = PBXBuildFile; fileRef = DB222EA41983C01E0015001D /* 0Life.png */; };
+		DB222EAB1983D3D00015001D /* Blank.png in Resources */ = {isa = PBXBuildFile; fileRef = DB222EAA1983D3D00015001D /* Blank.png */; };
+		DB222EB01983DA010015001D /* Clock Power Up Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = DB222EAC1983DA000015001D /* Clock Power Up Ball.png */; };
+		DB222EB21983DA010015001D /* Shield Power Up Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = DB222EAE1983DA010015001D /* Shield Power Up Ball.png */; };
+		DB222EB51983DF1B0015001D /* Life Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = DB222EB41983DF1B0015001D /* Life Ball.png */; };
+		DB30733F19AB1D1000CB6B28 /* InAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB30733E19AB1D1000CB6B28 /* InAppManager.m */; };
+		DB30734219AB1D3B00CB6B28 /* InAppObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = DB30734119AB1D3B00CB6B28 /* InAppObserver.m */; };
+		DB3FAB5F198258B700C1CEAB /* Red Ball Name.png in Resources */ = {isa = PBXBuildFile; fileRef = DB3FAB5E198258B700C1CEAB /* Red Ball Name.png */; };
+		DB6DDC3E19879A9F008F5DFB /* Game Name.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6DDC3D19879A9F008F5DFB /* Game Name.png */; };
+		DB6DDC5019879CCB008F5DFB /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6DDC4019879CCB008F5DFB /* Icon-40.png */; };
+		DB6DDC5119879CCB008F5DFB /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6DDC4119879CCB008F5DFB /* Icon-40@2x.png */; };
+		DB6DDC5219879CCB008F5DFB /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6DDC4219879CCB008F5DFB /* Icon-60.png */; };
+		DB6DDC5319879CCB008F5DFB /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6DDC4319879CCB008F5DFB /* Icon-60@2x.png */; };
+		DB6DDC5419879CCB008F5DFB /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6DDC4419879CCB008F5DFB /* Icon-72.png */; };
+		DB6DDC5519879CCB008F5DFB /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6DDC4519879CCB008F5DFB /* Icon-72@2x.png */; };
+		DB6DDC5619879CCB008F5DFB /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6DDC4619879CCB008F5DFB /* Icon-76.png */; };
+		DB6DDC5719879CCB008F5DFB /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6DDC4719879CCB008F5DFB /* Icon-76@2x.png */; };
+		DB6DDC5819879CCB008F5DFB /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6DDC4819879CCB008F5DFB /* Icon-Small-50.png */; };
+		DB6DDC5919879CCB008F5DFB /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6DDC4919879CCB008F5DFB /* Icon-Small-50@2x.png */; };
+		DB6DDC5A19879CCB008F5DFB /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6DDC4A19879CCB008F5DFB /* Icon-Small.png */; };
+		DB6DDC5B19879CCB008F5DFB /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6DDC4B19879CCB008F5DFB /* Icon-Small@2x.png */; };
+		DB6DDC5C19879CCB008F5DFB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6DDC4C19879CCB008F5DFB /* Icon.png */; };
+		DB6DDC5D19879CCB008F5DFB /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6DDC4D19879CCB008F5DFB /* Icon@2x.png */; };
+		DB6DDC5E19879CCB008F5DFB /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6DDC4E19879CCB008F5DFB /* iTunesArtwork.png */; };
+		DB6DDC5F19879CCB008F5DFB /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6DDC4F19879CCB008F5DFB /* iTunesArtwork@2x.png */; };
+		DB757C95199889AC0067A80D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFF2576198CA6E200C9CE6C /* StoreKit.framework */; };
+		DB860BDE1986174A00169964 /* GameOverScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = DB860BDD1986174A00169964 /* GameOverScreen.m */; };
+		DB860BE01986201100169964 /* GameOverLabel.png in Resources */ = {isa = PBXBuildFile; fileRef = DB860BDF1986201100169964 /* GameOverLabel.png */; };
+		DB860BE619862EA500169964 /* House Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DB860BE519862EA500169964 /* House Icon.png */; };
+		DB860BE9198665C000169964 /* Shrink Power Up Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = DB860BE7198665C000169964 /* Shrink Power Up Ball.png */; };
+		DB860BEC1986736200169964 /* Shrink Power Up.png in Resources */ = {isa = PBXBuildFile; fileRef = DB860BEB1986736200169964 /* Shrink Power Up.png */; };
+		DB8F04BA197B9B3300961596 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8F04B9197B9B3300961596 /* Foundation.framework */; };
+		DB8F04BC197B9B3300961596 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8F04BB197B9B3300961596 /* CoreGraphics.framework */; };
+		DB8F04BE197B9B3300961596 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8F04BD197B9B3300961596 /* UIKit.framework */; };
+		DB8F04C4197B9B3300961596 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB8F04C2197B9B3300961596 /* InfoPlist.strings */; };
+		DB8F04C6197B9B3300961596 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8F04C5197B9B3300961596 /* main.m */; };
+		DB8F04CA197B9B3300961596 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8F04C9197B9B3300961596 /* AppDelegate.m */; };
+		DB8F04CD197B9B3300961596 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB8F04CB197B9B3300961596 /* Main_iPhone.storyboard */; };
+		DB8F04D0197B9B3300961596 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB8F04CE197B9B3300961596 /* Main_iPad.storyboard */; };
+		DB8F04D3197B9B3300961596 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8F04D2197B9B3300961596 /* ViewController.m */; };
+		DB8F04D5197B9B3300961596 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8F04D4197B9B3300961596 /* Images.xcassets */; };
+		DB8F04DC197B9B3400961596 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8F04DB197B9B3400961596 /* XCTest.framework */; };
+		DB8F04DD197B9B3400961596 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8F04B9197B9B3300961596 /* Foundation.framework */; };
+		DB8F04DE197B9B3400961596 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8F04BD197B9B3300961596 /* UIKit.framework */; };
+		DB8F04E6197B9B3400961596 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB8F04E4197B9B3400961596 /* InfoPlist.strings */; };
+		DB8F04E8197B9B3400961596 /* RedBallSpriteKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8F04E7197B9B3400961596 /* RedBallSpriteKitTests.m */; };
+		DB8F04F2197B9BA000961596 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8F04F1197B9BA000961596 /* SpriteKit.framework */; };
+		DB8F04F5197B9C1C00961596 /* MenuScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8F04F4197B9C1C00961596 /* MenuScreen.m */; };
+		DB8F04F8197B9E8000961596 /* MainGame.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8F04F7197B9E8000961596 /* MainGame.m */; };
+		DB9AB2E119B6F67D00344F78 /* Red Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = DB9AB2E019B6F67D00344F78 /* Red Ball.png */; };
+		DB9AB2E319B6F68600344F78 /* Green Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = DB9AB2E219B6F68600344F78 /* Green Ball.png */; };
+		DBB9D6FD19806A8C004E4489 /* Pink Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = DBB9D6FA19806A8C004E4489 /* Pink Ball.png */; };
+		DBC74F5A19813A46001F38AB /* Heart.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC74F5619813A46001F38AB /* Heart.png */; };
+		DBC74F6019813AD3001F38AB /* Heart - Not.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC74F5E19813AD3001F38AB /* Heart - Not.png */; };
+		DBD40C6A198471B60088B7BA /* Clock Power Up.png in Resources */ = {isa = PBXBuildFile; fileRef = DBD40C68198471B60088B7BA /* Clock Power Up.png */; };
+		DBD40C6B198471B60088B7BA /* Shield Power Up.png in Resources */ = {isa = PBXBuildFile; fileRef = DBD40C69198471B60088B7BA /* Shield Power Up.png */; };
+		DBD40C6E198496FF0088B7BA /* Light Orange Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = DBD40C6C198496FF0088B7BA /* Light Orange Ball.png */; };
+		DBD40C6F198496FF0088B7BA /* Yellow Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = DBD40C6D198496FF0088B7BA /* Yellow Ball.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB8F04DF197B9B3400961596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB8F04AE197B9B3300961596 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB8F04B5197B9B3300961596;
+			remoteInfo = RedBallSpriteKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB016508198B650900B1C375 /* Music Rights.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Music Rights.png"; sourceTree = "<group>"; };
+		DB01651F198B691700B1C375 /* Ouroboros.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ouroboros.mp3; sourceTree = "<group>"; };
+		DB016521198B6B4F00B1C375 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DB016523198B7EAE00B1C375 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		DB1D21461987AA8000A40A72 /* CreditsScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreditsScreen.h; path = ../CreditsScreen.h; sourceTree = "<group>"; };
+		DB1D21471987AA8000A40A72 /* CreditsScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreditsScreen.m; path = ../CreditsScreen.m; sourceTree = "<group>"; };
+		DB1D21531987B6B300A40A72 /* Download My Maths Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Download My Maths Image.png"; sourceTree = "<group>"; };
+		DB1D21541987B6B300A40A72 /* Facebook Like Image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Facebook Like Image.jpg"; sourceTree = "<group>"; };
+		DB1D21551987B6B300A40A72 /* fb_icon_325x325.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb_icon_325x325.png; sourceTree = "<group>"; };
+		DB1D21561987B6B300A40A72 /* Special Thanks to People.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Special Thanks to People.png"; sourceTree = "<group>"; };
+		DB222E9E1983AABE0015001D /* 1Life.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1Life.png; sourceTree = "<group>"; };
+		DB222E9F1983AABE0015001D /* 2Life.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2Life.png; sourceTree = "<group>"; };
+		DB222EA01983AABE0015001D /* 3Life.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3Life.png; sourceTree = "<group>"; };
+		DB222EA41983C01E0015001D /* 0Life.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0Life.png; sourceTree = "<group>"; };
+		DB222EAA1983D3D00015001D /* Blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blank.png; sourceTree = "<group>"; };
+		DB222EAC1983DA000015001D /* Clock Power Up Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Clock Power Up Ball.png"; sourceTree = "<group>"; };
+		DB222EAE1983DA010015001D /* Shield Power Up Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shield Power Up Ball.png"; sourceTree = "<group>"; };
+		DB222EB41983DF1B0015001D /* Life Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Life Ball.png"; sourceTree = "<group>"; };
+		DB30733D19AB1D1000CB6B28 /* InAppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppManager.h; sourceTree = "<group>"; };
+		DB30733E19AB1D1000CB6B28 /* InAppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppManager.m; sourceTree = "<group>"; };
+		DB30734019AB1D3B00CB6B28 /* InAppObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppObserver.h; sourceTree = "<group>"; };
+		DB30734119AB1D3B00CB6B28 /* InAppObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppObserver.m; sourceTree = "<group>"; };
+		DB3FAB5E198258B700C1CEAB /* Red Ball Name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red Ball Name.png"; sourceTree = "<group>"; };
+		DB6DDC3D19879A9F008F5DFB /* Game Name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Game Name.png"; sourceTree = "<group>"; };
+		DB6DDC4019879CCB008F5DFB /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		DB6DDC4119879CCB008F5DFB /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		DB6DDC4219879CCB008F5DFB /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		DB6DDC4319879CCB008F5DFB /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		DB6DDC4419879CCB008F5DFB /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		DB6DDC4519879CCB008F5DFB /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		DB6DDC4619879CCB008F5DFB /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		DB6DDC4719879CCB008F5DFB /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		DB6DDC4819879CCB008F5DFB /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		DB6DDC4919879CCB008F5DFB /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		DB6DDC4A19879CCB008F5DFB /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		DB6DDC4B19879CCB008F5DFB /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		DB6DDC4C19879CCB008F5DFB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		DB6DDC4D19879CCB008F5DFB /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		DB6DDC4E19879CCB008F5DFB /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		DB6DDC4F19879CCB008F5DFB /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		DB860BDC1986174A00169964 /* GameOverScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOverScreen.h; path = ../GameOverScreen.h; sourceTree = "<group>"; };
+		DB860BDD1986174A00169964 /* GameOverScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameOverScreen.m; path = ../GameOverScreen.m; sourceTree = "<group>"; };
+		DB860BDF1986201100169964 /* GameOverLabel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameOverLabel.png; sourceTree = "<group>"; };
+		DB860BE519862EA500169964 /* House Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "House Icon.png"; sourceTree = "<group>"; };
+		DB860BE7198665C000169964 /* Shrink Power Up Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shrink Power Up Ball.png"; sourceTree = "<group>"; };
+		DB860BEB1986736200169964 /* Shrink Power Up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shrink Power Up.png"; sourceTree = "<group>"; };
+		DB8F04B6197B9B3300961596 /* Don't Touch The Green Balls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Don't Touch The Green Balls.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB8F04B9197B9B3300961596 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB8F04BB197B9B3300961596 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB8F04BD197B9B3300961596 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB8F04C1197B9B3300961596 /* Don't Touch The Green Balls-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Don't Touch The Green Balls-Info.plist"; sourceTree = "<group>"; };
+		DB8F04C3197B9B3300961596 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB8F04C5197B9B3300961596 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB8F04C7197B9B3300961596 /* Don't Touch The Green Balls-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Don't Touch The Green Balls-Prefix.pch"; sourceTree = "<group>"; };
+		DB8F04C8197B9B3300961596 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB8F04C9197B9B3300961596 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB8F04CC197B9B3300961596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		DB8F04CF197B9B3300961596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		DB8F04D1197B9B3300961596 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB8F04D2197B9B3300961596 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB8F04D4197B9B3300961596 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB8F04DA197B9B3400961596 /* Don't Touch The Green BallsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Don't Touch The Green BallsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB8F04DB197B9B3400961596 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DB8F04E3197B9B3400961596 /* Don't Touch The Green BallsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Don't Touch The Green BallsTests-Info.plist"; sourceTree = "<group>"; };
+		DB8F04E5197B9B3400961596 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB8F04E7197B9B3400961596 /* RedBallSpriteKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedBallSpriteKitTests.m; sourceTree = "<group>"; };
+		DB8F04F1197B9BA000961596 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		DB8F04F3197B9C1C00961596 /* MenuScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuScreen.h; path = ../MenuScreen.h; sourceTree = "<group>"; };
+		DB8F04F4197B9C1C00961596 /* MenuScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuScreen.m; path = ../MenuScreen.m; sourceTree = "<group>"; };
+		DB8F04F6197B9E8000961596 /* MainGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainGame.h; sourceTree = "<group>"; };
+		DB8F04F7197B9E8000961596 /* MainGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainGame.m; sourceTree = "<group>"; };
+		DB9AB2E019B6F67D00344F78 /* Red Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red Ball.png"; sourceTree = "<group>"; };
+		DB9AB2E219B6F68600344F78 /* Green Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Ball.png"; sourceTree = "<group>"; };
+		DBB9D6FA19806A8C004E4489 /* Pink Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pink Ball.png"; sourceTree = "<group>"; };
+		DBC74F5619813A46001F38AB /* Heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Heart.png; sourceTree = "<group>"; };
+		DBC74F5E19813AD3001F38AB /* Heart - Not.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Heart - Not.png"; sourceTree = "<group>"; };
+		DBD40C68198471B60088B7BA /* Clock Power Up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Clock Power Up.png"; sourceTree = "<group>"; };
+		DBD40C69198471B60088B7BA /* Shield Power Up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shield Power Up.png"; sourceTree = "<group>"; };
+		DBD40C6C198496FF0088B7BA /* Light Orange Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Light Orange Ball.png"; sourceTree = "<group>"; };
+		DBD40C6D198496FF0088B7BA /* Yellow Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Yellow Ball.png"; sourceTree = "<group>"; };
+		DBFF2576198CA6E200C9CE6C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB8F04B3197B9B3300961596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB757C95199889AC0067A80D /* StoreKit.framework in Frameworks */,
+				DB016524198B7EAE00B1C375 /* iAd.framework in Frameworks */,
+				DB016522198B6B4F00B1C375 /* AVFoundation.framework in Frameworks */,
+				DB8F04F2197B9BA000961596 /* SpriteKit.framework in Frameworks */,
+				DB8F04BC197B9B3300961596 /* CoreGraphics.framework in Frameworks */,
+				DB8F04BE197B9B3300961596 /* UIKit.framework in Frameworks */,
+				DB8F04BA197B9B3300961596 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8F04D7197B9B3400961596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8F04DC197B9B3400961596 /* XCTest.framework in Frameworks */,
+				DB8F04DE197B9B3400961596 /* UIKit.framework in Frameworks */,
+				DB8F04DD197B9B3400961596 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB1D21521987B6B300A40A72 /* New Credits Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				DB1D21531987B6B300A40A72 /* Download My Maths Image.png */,
+				DB1D21541987B6B300A40A72 /* Facebook Like Image.jpg */,
+				DB1D21551987B6B300A40A72 /* fb_icon_325x325.png */,
+				DB016508198B650900B1C375 /* Music Rights.png */,
+				DB1D21561987B6B300A40A72 /* Special Thanks to People.png */,
+			);
+			path = "New Credits Stuff";
+			sourceTree = "<group>";
+		};
+		DB6DDC3F19879CCB008F5DFB /* Newios7 */ = {
+			isa = PBXGroup;
+			children = (
+				DB6DDC4019879CCB008F5DFB /* Icon-40.png */,
+				DB6DDC4119879CCB008F5DFB /* Icon-40@2x.png */,
+				DB6DDC4219879CCB008F5DFB /* Icon-60.png */,
+				DB6DDC4319879CCB008F5DFB /* Icon-60@2x.png */,
+				DB6DDC4419879CCB008F5DFB /* Icon-72.png */,
+				DB6DDC4519879CCB008F5DFB /* Icon-72@2x.png */,
+				DB6DDC4619879CCB008F5DFB /* Icon-76.png */,
+				DB6DDC4719879CCB008F5DFB /* Icon-76@2x.png */,
+				DB6DDC4819879CCB008F5DFB /* Icon-Small-50.png */,
+				DB6DDC4919879CCB008F5DFB /* Icon-Small-50@2x.png */,
+				DB6DDC4A19879CCB008F5DFB /* Icon-Small.png */,
+				DB6DDC4B19879CCB008F5DFB /* Icon-Small@2x.png */,
+				DB6DDC4C19879CCB008F5DFB /* Icon.png */,
+				DB6DDC4D19879CCB008F5DFB /* Icon@2x.png */,
+				DB6DDC4E19879CCB008F5DFB /* iTunesArtwork.png */,
+				DB6DDC4F19879CCB008F5DFB /* iTunesArtwork@2x.png */,
+			);
+			path = Newios7;
+			sourceTree = "<group>";
+		};
+		DB8F04AD197B9B3300961596 = {
+			isa = PBXGroup;
+			children = (
+				DB8F04BF197B9B3300961596 /* RedBallSpriteKit */,
+				DB8F04E1197B9B3400961596 /* RedBallSpriteKitTests */,
+				DB8F04B8197B9B3300961596 /* Frameworks */,
+				DB8F04B7197B9B3300961596 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB8F04B7197B9B3300961596 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB8F04B6197B9B3300961596 /* Don't Touch The Green Balls.app */,
+				DB8F04DA197B9B3400961596 /* Don't Touch The Green BallsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB8F04B8197B9B3300961596 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBFF2576198CA6E200C9CE6C /* StoreKit.framework */,
+				DB016523198B7EAE00B1C375 /* iAd.framework */,
+				DB016521198B6B4F00B1C375 /* AVFoundation.framework */,
+				DB8F04F1197B9BA000961596 /* SpriteKit.framework */,
+				DB8F04B9197B9B3300961596 /* Foundation.framework */,
+				DB8F04BB197B9B3300961596 /* CoreGraphics.framework */,
+				DB8F04BD197B9B3300961596 /* UIKit.framework */,
+				DB8F04DB197B9B3400961596 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB8F04BF197B9B3300961596 /* RedBallSpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				DB8F04C8197B9B3300961596 /* AppDelegate.h */,
+				DB8F04C9197B9B3300961596 /* AppDelegate.m */,
+				DB8F04CB197B9B3300961596 /* Main_iPhone.storyboard */,
+				DB8F04CE197B9B3300961596 /* Main_iPad.storyboard */,
+				DB8F04D1197B9B3300961596 /* ViewController.h */,
+				DB8F04D2197B9B3300961596 /* ViewController.m */,
+				DB8F04F3197B9C1C00961596 /* MenuScreen.h */,
+				DB8F04F4197B9C1C00961596 /* MenuScreen.m */,
+				DB8F04F6197B9E8000961596 /* MainGame.h */,
+				DB8F04F7197B9E8000961596 /* MainGame.m */,
+				DB860BDC1986174A00169964 /* GameOverScreen.h */,
+				DB860BDD1986174A00169964 /* GameOverScreen.m */,
+				DB1D21461987AA8000A40A72 /* CreditsScreen.h */,
+				DB1D21471987AA8000A40A72 /* CreditsScreen.m */,
+				DB30733D19AB1D1000CB6B28 /* InAppManager.h */,
+				DB30733E19AB1D1000CB6B28 /* InAppManager.m */,
+				DB30734019AB1D3B00CB6B28 /* InAppObserver.h */,
+				DB30734119AB1D3B00CB6B28 /* InAppObserver.m */,
+				DB01651F198B691700B1C375 /* Ouroboros.mp3 */,
+				DB9AB2E019B6F67D00344F78 /* Red Ball.png */,
+				DB9AB2E219B6F68600344F78 /* Green Ball.png */,
+				DB3FAB5E198258B700C1CEAB /* Red Ball Name.png */,
+				DB6DDC3D19879A9F008F5DFB /* Game Name.png */,
+				DB860BDF1986201100169964 /* GameOverLabel.png */,
+				DB222EAA1983D3D00015001D /* Blank.png */,
+				DBB9D6FA19806A8C004E4489 /* Pink Ball.png */,
+				DBD40C6C198496FF0088B7BA /* Light Orange Ball.png */,
+				DBD40C6D198496FF0088B7BA /* Yellow Ball.png */,
+				DBC74F5619813A46001F38AB /* Heart.png */,
+				DBC74F5E19813AD3001F38AB /* Heart - Not.png */,
+				DB222EB41983DF1B0015001D /* Life Ball.png */,
+				DB222EA41983C01E0015001D /* 0Life.png */,
+				DB222E9E1983AABE0015001D /* 1Life.png */,
+				DB222E9F1983AABE0015001D /* 2Life.png */,
+				DB222EA01983AABE0015001D /* 3Life.png */,
+				DB222EAC1983DA000015001D /* Clock Power Up Ball.png */,
+				DB222EAE1983DA010015001D /* Shield Power Up Ball.png */,
+				DB860BE7198665C000169964 /* Shrink Power Up Ball.png */,
+				DBD40C68198471B60088B7BA /* Clock Power Up.png */,
+				DBD40C69198471B60088B7BA /* Shield Power Up.png */,
+				DB860BEB1986736200169964 /* Shrink Power Up.png */,
+				DB860BE519862EA500169964 /* House Icon.png */,
+				DB1D21521987B6B300A40A72 /* New Credits Stuff */,
+				DB6DDC3F19879CCB008F5DFB /* Newios7 */,
+				DB8F04D4197B9B3300961596 /* Images.xcassets */,
+				DB8F04C0197B9B3300961596 /* Supporting Files */,
+			);
+			path = RedBallSpriteKit;
+			sourceTree = "<group>";
+		};
+		DB8F04C0197B9B3300961596 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB8F04C1197B9B3300961596 /* Don't Touch The Green Balls-Info.plist */,
+				DB8F04C2197B9B3300961596 /* InfoPlist.strings */,
+				DB8F04C5197B9B3300961596 /* main.m */,
+				DB8F04C7197B9B3300961596 /* Don't Touch The Green Balls-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB8F04E1197B9B3400961596 /* RedBallSpriteKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB8F04E7197B9B3400961596 /* RedBallSpriteKitTests.m */,
+				DB8F04E2197B9B3400961596 /* Supporting Files */,
+			);
+			path = RedBallSpriteKitTests;
+			sourceTree = "<group>";
+		};
+		DB8F04E2197B9B3400961596 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB8F04E3197B9B3400961596 /* Don't Touch The Green BallsTests-Info.plist */,
+				DB8F04E4197B9B3400961596 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB8F04B5197B9B3300961596 /* Don't Touch The Green Balls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB8F04EB197B9B3400961596 /* Build configuration list for PBXNativeTarget "Don't Touch The Green Balls" */;
+			buildPhases = (
+				DB8F04B2197B9B3300961596 /* Sources */,
+				DB8F04B3197B9B3300961596 /* Frameworks */,
+				DB8F04B4197B9B3300961596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Don't Touch The Green Balls";
+			productName = RedBallSpriteKit;
+			productReference = DB8F04B6197B9B3300961596 /* Don't Touch The Green Balls.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB8F04D9197B9B3400961596 /* Don't Touch The Green BallsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB8F04EE197B9B3400961596 /* Build configuration list for PBXNativeTarget "Don't Touch The Green BallsTests" */;
+			buildPhases = (
+				DB8F04D6197B9B3400961596 /* Sources */,
+				DB8F04D7197B9B3400961596 /* Frameworks */,
+				DB8F04D8197B9B3400961596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB8F04E0197B9B3400961596 /* PBXTargetDependency */,
+			);
+			name = "Don't Touch The Green BallsTests";
+			productName = RedBallSpriteKitTests;
+			productReference = DB8F04DA197B9B3400961596 /* Don't Touch The Green BallsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB8F04AE197B9B3300961596 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Lee Warren";
+				TargetAttributes = {
+					DB8F04B5197B9B3300961596 = {
+						DevelopmentTeam = 8J6N4E79WH;
+					};
+					DB8F04D9197B9B3400961596 = {
+						TestTargetID = DB8F04B5197B9B3300961596;
+					};
+				};
+			};
+			buildConfigurationList = DB8F04B1197B9B3300961596 /* Build configuration list for PBXProject "Don't Touch The Green Balls" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB8F04AD197B9B3300961596;
+			productRefGroup = DB8F04B7197B9B3300961596 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB8F04B5197B9B3300961596 /* Don't Touch The Green Balls */,
+				DB8F04D9197B9B3400961596 /* Don't Touch The Green BallsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB8F04B4197B9B3300961596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC74F5A19813A46001F38AB /* Heart.png in Resources */,
+				DB222EAB1983D3D00015001D /* Blank.png in Resources */,
+				DBD40C6F198496FF0088B7BA /* Yellow Ball.png in Resources */,
+				DB860BE9198665C000169964 /* Shrink Power Up Ball.png in Resources */,
+				DB6DDC3E19879A9F008F5DFB /* Game Name.png in Resources */,
+				DB860BE619862EA500169964 /* House Icon.png in Resources */,
+				DB222EA11983AABE0015001D /* 1Life.png in Resources */,
+				DB222EA31983AABE0015001D /* 3Life.png in Resources */,
+				DB6DDC5F19879CCB008F5DFB /* iTunesArtwork@2x.png in Resources */,
+				DB860BE01986201100169964 /* GameOverLabel.png in Resources */,
+				DB8F04D0197B9B3300961596 /* Main_iPad.storyboard in Resources */,
+				DB6DDC5A19879CCB008F5DFB /* Icon-Small.png in Resources */,
+				DB1D21571987B6B300A40A72 /* Download My Maths Image.png in Resources */,
+				DB6DDC5919879CCB008F5DFB /* Icon-Small-50@2x.png in Resources */,
+				DB6DDC5C19879CCB008F5DFB /* Icon.png in Resources */,
+				DB016520198B691700B1C375 /* Ouroboros.mp3 in Resources */,
+				DB9AB2E319B6F68600344F78 /* Green Ball.png in Resources */,
+				DB1D21591987B6B300A40A72 /* fb_icon_325x325.png in Resources */,
+				DB222EB01983DA010015001D /* Clock Power Up Ball.png in Resources */,
+				DBD40C6A198471B60088B7BA /* Clock Power Up.png in Resources */,
+				DB222EA21983AABE0015001D /* 2Life.png in Resources */,
+				DBD40C6B198471B60088B7BA /* Shield Power Up.png in Resources */,
+				DB9AB2E119B6F67D00344F78 /* Red Ball.png in Resources */,
+				DB222EB21983DA010015001D /* Shield Power Up Ball.png in Resources */,
+				DB6DDC5B19879CCB008F5DFB /* Icon-Small@2x.png in Resources */,
+				DB222EB51983DF1B0015001D /* Life Ball.png in Resources */,
+				DB8F04D5197B9B3300961596 /* Images.xcassets in Resources */,
+				DB6DDC5719879CCB008F5DFB /* Icon-76@2x.png in Resources */,
+				DBD40C6E198496FF0088B7BA /* Light Orange Ball.png in Resources */,
+				DB6DDC5E19879CCB008F5DFB /* iTunesArtwork.png in Resources */,
+				DBB9D6FD19806A8C004E4489 /* Pink Ball.png in Resources */,
+				DB1D21581987B6B300A40A72 /* Facebook Like Image.jpg in Resources */,
+				DB6DDC5819879CCB008F5DFB /* Icon-Small-50.png in Resources */,
+				DB6DDC5219879CCB008F5DFB /* Icon-60.png in Resources */,
+				DB860BEC1986736200169964 /* Shrink Power Up.png in Resources */,
+				DB8F04CD197B9B3300961596 /* Main_iPhone.storyboard in Resources */,
+				DB222EA51983C01E0015001D /* 0Life.png in Resources */,
+				DB6DDC5D19879CCB008F5DFB /* Icon@2x.png in Resources */,
+				DB016509198B650900B1C375 /* Music Rights.png in Resources */,
+				DB6DDC5019879CCB008F5DFB /* Icon-40.png in Resources */,
+				DB8F04C4197B9B3300961596 /* InfoPlist.strings in Resources */,
+				DBC74F6019813AD3001F38AB /* Heart - Not.png in Resources */,
+				DB6DDC5319879CCB008F5DFB /* Icon-60@2x.png in Resources */,
+				DB6DDC5619879CCB008F5DFB /* Icon-76.png in Resources */,
+				DB6DDC5419879CCB008F5DFB /* Icon-72.png in Resources */,
+				DB3FAB5F198258B700C1CEAB /* Red Ball Name.png in Resources */,
+				DB6DDC5119879CCB008F5DFB /* Icon-40@2x.png in Resources */,
+				DB6DDC5519879CCB008F5DFB /* Icon-72@2x.png in Resources */,
+				DB1D215A1987B6B300A40A72 /* Special Thanks to People.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8F04D8197B9B3400961596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8F04E6197B9B3400961596 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB8F04B2197B9B3300961596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8F04F5197B9C1C00961596 /* MenuScreen.m in Sources */,
+				DB860BDE1986174A00169964 /* GameOverScreen.m in Sources */,
+				DB1D21481987AA8000A40A72 /* CreditsScreen.m in Sources */,
+				DB8F04D3197B9B3300961596 /* ViewController.m in Sources */,
+				DB30733F19AB1D1000CB6B28 /* InAppManager.m in Sources */,
+				DB8F04F8197B9E8000961596 /* MainGame.m in Sources */,
+				DB8F04CA197B9B3300961596 /* AppDelegate.m in Sources */,
+				DB8F04C6197B9B3300961596 /* main.m in Sources */,
+				DB30734219AB1D3B00CB6B28 /* InAppObserver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8F04D6197B9B3400961596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8F04E8197B9B3400961596 /* RedBallSpriteKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB8F04E0197B9B3400961596 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB8F04B5197B9B3300961596 /* Don't Touch The Green Balls */;
+			targetProxy = DB8F04DF197B9B3400961596 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB8F04C2197B9B3300961596 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB8F04C3197B9B3300961596 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB8F04CB197B9B3300961596 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB8F04CC197B9B3300961596 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		DB8F04CE197B9B3300961596 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB8F04CF197B9B3300961596 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		DB8F04E4197B9B3400961596 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB8F04E5197B9B3400961596 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB8F04E9197B9B3400961596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB8F04EA197B9B3400961596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB8F04EC197B9B3400961596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedBallSpriteKit/Don't Touch The Green Balls-Prefix.pch";
+				INFOPLIST_FILE = "RedBallSpriteKit/Don't Touch The Green Balls-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Don't Touch The Green Balls";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB8F04ED197B9B3400961596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedBallSpriteKit/Don't Touch The Green Balls-Prefix.pch";
+				INFOPLIST_FILE = "RedBallSpriteKit/Don't Touch The Green Balls-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Don't Touch The Green Balls";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DB8F04EF197B9B3400961596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RedBallSpriteKit.app/RedBallSpriteKit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedBallSpriteKit/RedBallSpriteKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RedBallSpriteKitTests/Don't Touch The Green BallsTests-Info.plist";
+				PRODUCT_NAME = "Don't Touch The Green BallsTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DB8F04F0197B9B3400961596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RedBallSpriteKit.app/RedBallSpriteKit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedBallSpriteKit/RedBallSpriteKit-Prefix.pch";
+				INFOPLIST_FILE = "RedBallSpriteKitTests/Don't Touch The Green BallsTests-Info.plist";
+				PRODUCT_NAME = "Don't Touch The Green BallsTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB8F04B1197B9B3300961596 /* Build configuration list for PBXProject "Don't Touch The Green Balls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB8F04E9197B9B3400961596 /* Debug */,
+				DB8F04EA197B9B3400961596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB8F04EB197B9B3400961596 /* Build configuration list for PBXNativeTarget "Don't Touch The Green Balls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB8F04EC197B9B3400961596 /* Debug */,
+				DB8F04ED197B9B3400961596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB8F04EE197B9B3400961596 /* Build configuration list for PBXNativeTarget "Don't Touch The Green BallsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB8F04EF197B9B3400961596 /* Debug */,
+				DB8F04F0197B9B3400961596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB8F04AE197B9B3300961596 /* Project object */;
+}
